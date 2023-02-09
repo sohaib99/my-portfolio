@@ -3,10 +3,12 @@ import Hero from './Hero';
 import BackgroundCircles from './BackgroundCircles';
 import About from './About';
 import DarkModeButton from './DarkModeButton';
-import Experience from './Experience';
+import WorkExperience from "./WorkExperience";
 import ExperienceCard from './ExperienceCard';
 import Skills from "./Skills";
 import Skillcomp from './Skillcomp';
+import Projects from "./Projects";
+import Contact from "./Contact";
 
 export {
   Header,
@@ -14,9 +16,11 @@ export {
   BackgroundCircles,
   About,
   DarkModeButton,
-  Experience,
+  WorkExperience,
   ExperienceCard,
   Skills,
   Skillcomp,
+  Projects,
+  Contact,
 };
 

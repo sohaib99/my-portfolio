@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+sohaib-portfolio-studio/node_modules
 
 # testing
 /coverage

@@ -7,4 +7,9 @@
         tracking-widest dark:text-gray-600 text-slate-400 transition-all dark:hover:border-[#f7ab0a]/40  dark:hover:text-[#f7ab0a]/40
          hover:border-violet-600/40 hover:text-violet-800/60
     }
+    .contactInput{
+        @apply outline-none dark:bg-slate-400/10 bg-slate-400/50 rounded-sm border-b px-6 py-4 dark:border-[#242424] border-slate-400/50
+        dark:text-gray-500 text-black dark:placeholder-gray-500 placeholder-violet-800/40 transition-all dark:focus:border-[#f7ab0a]/40
+    dark:focus:text-[#f7ab0a]/40  focus:border-violet-800/40 focus:text-violet-500/40 dark:hover:border-[#f7ab0a]/40 hover:border-violet-800/40
+    }
 }

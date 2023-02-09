@@ -1,10 +1,11 @@
 import React from "react";
 import { Skillcomp } from "../components";
 import { motion } from "framer-motion";
+import { Experience, Project, Skill, Social, PageInfo } from "../typings";
 
-type Props = {};
+type Props = { skills: Skill[] };
 
-function Skills({}: Props) {
+function Skills({ skills }: Props) {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -20,25 +21,16 @@ function Skills({}: Props) {
         Hover over skills for current Proficiency
       </h3>
       <div className="grid grid-cols-4 gap-5">
-        <Skillcomp />
-        <Skillcomp />
-        <Skillcomp />
-        <Skillcomp />
-        <Skillcomp />
-        <Skillcomp />
-        <Skillcomp />
-        <Skillcomp />
-        <Skillcomp />
-        <Skillcomp />
-        <Skillcomp />
-        <Skillcomp />
-        <Skillcomp />
-        <Skillcomp />
-        <Skillcomp />
-        <Skillcomp />
+        {skills?.slice(0,skills.length/2).map((skill) => (
+          <Skillcomp key={skill.id} skill={skill} />
+        ))}
+        {skills?.slice(skills.length/2,skills.length).map((skill) => (
+          <Skillcomp key={skill.id} skill={skill} directionLeft />
+        ))}
       </div>
     </motion.div>
   );
 }
 
-export default Skills;
+export default Skills
+      

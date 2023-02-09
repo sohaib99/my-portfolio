@@ -2,10 +2,14 @@ import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 import { DarkModeButton } from "../components";
+import Link from "next/link";
+import { Experience, Project, Skill, Social, PageInfo } from "../typings";
 
-type Props = {};
+type Props = {
+  socials: Social[];
+};
 
-export default function Header({}: Props) {
+export default function Header({ socials }: Props) {
   return (
     <header className="sticky top-0 z-20 flex items-start justify-between p-5 mx-auto max-w-7xl xl:items-center">
       <motion.div
@@ -25,36 +29,15 @@ export default function Header({}: Props) {
         className="flex flex-row items-center"
       >
         {/* social */}
-        <SocialIcon
-          className="cursor-pointer"
-          url="https://github.com"
-          fgColor="gray"
-          bgColor="transparent"
-        />
-        <SocialIcon
-          className="cursor-pointer"
-          url="https://linkedin.com"
-          fgColor="gray"
-          bgColor="transparent"
-        />
-        <SocialIcon
-          className="cursor-pointer"
-          url="https://twitter.com"
-          fgColor="gray"
-          bgColor="transparent"
-        />
-        <SocialIcon
-          className="cursor-pointer"
-          url="https://instagram.com"
-          fgColor="gray"
-          bgColor="transparent"
-        />
-        <SocialIcon
-          className="cursor-pointer"
-          url="https://facebook.com"
-          fgColor="gray"
-          bgColor="transparent"
-        />
+        {socials.map((social) => (
+          <SocialIcon
+            key={social._id}
+            className="cursor-pointer"
+            url={social.url}
+            fgColor="gray"
+            bgColor="transparent"
+          />
+        ))}
       </motion.div>
       <motion.div
         initial={{
@@ -70,17 +53,15 @@ export default function Header({}: Props) {
         transition={{
           duration: 1.5,
         }}
-        className="flex flex-row items-center text-gray-300 cursor-pointer"
+        className="flex space-x-2 flex-row items-center text-gray-300 cursor-pointer"
       >
-        <SocialIcon
-          className="cursor-pointer"
-          network="email"
-          fgColor="gray"
-          bgColor="transparent"
-        />
-        <p className="hidden text-sm text-gray-400 uppercase md:inline-flex ">
-          Get in Touch
-        </p>
+        <Link
+          href="#contact"
+          className="text-sm text-gray-400 uppercase md:inline-flex "
+        >
+          Contact
+        </Link>
+
         <DarkModeButton />
       </motion.div>
     </header>
