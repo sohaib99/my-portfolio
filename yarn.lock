@@ -1694,7 +1694,7 @@ glob@7.1.7:
 
 glob@^7.1.3:
   version "7.2.3"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-7.2.3.tgz#b8df0fb802bbfa8e89bd1d938b4e16578ed44f2b"
+  resolved "https://registry.npmjs.org/glob/-/glob-7.2.3.tgz"
   integrity sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==
   dependencies:
     fs.realpath "^1.0.0"
@@ -1963,7 +1963,7 @@ is-decimal@^1.0.0:
 
 is-docker@^2.0.0, is-docker@^2.1.1:
   version "2.2.1"
-  resolved "https://registry.yarnpkg.com/is-docker/-/is-docker-2.2.1.tgz#33eeabe23cfe86f14bde4408a02c0cfb853acdaa"
+  resolved "https://registry.npmjs.org/is-docker/-/is-docker-2.2.1.tgz"
   integrity sha512-F+i2BKsFrH66iaUFc0woD8sLy8getkwTwtOBjvs56Cx4CgJDeKQeqfz8wAYiSb8JOprWhHH5p77PbmYCvvUuXQ==
 
 is-extglob@^2.1.1:
@@ -2093,7 +2093,7 @@ isarray@~1.0.0:
 
 isexe@^2.0.0:
   version "2.0.0"
-  resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
+  resolved "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz"
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
 
 isobject@^3.0.1:
@@ -2108,7 +2108,7 @@ js-sdsl@^4.1.4:
 
 "js-tokens@^3.0.0 || ^4.0.0":
   version "4.0.0"
-  resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
+  resolved "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
 js-yaml@^4.1.0:
@@ -2130,14 +2130,14 @@ json-stable-stringify-without-jsonify@^1.0.1:
 
 json5@^1.0.1:
   version "1.0.2"
-  resolved "https://registry.yarnpkg.com/json5/-/json5-1.0.2.tgz#63d98d60f21b313b77c4d6da18bfa69d80e1d593"
+  resolved "https://registry.npmjs.org/json5/-/json5-1.0.2.tgz"
   integrity sha512-g1MWMLBiz8FKi1e4w0UyVL3w+iJceWAFBAaBnnGKOpNa5f8TLktkbre1+s6oICydWAm+HRUGTmI+//xv2hvXYA==
   dependencies:
     minimist "^1.2.0"
 
 json5@^2.2.3:
   version "2.2.3"
-  resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.3.tgz#78cd6f1a19bdc12b73db5ad0c61efd66c1e29283"
+  resolved "https://registry.npmjs.org/json5/-/json5-2.2.3.tgz"
   integrity sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==
 
 "jsx-ast-utils@^2.4.1 || ^3.0.0", jsx-ast-utils@^3.3.2:
@@ -2192,7 +2192,7 @@ lodash@^4.17.21:
 
 loose-envify@^1.1.0, loose-envify@^1.3.1, loose-envify@^1.4.0:
   version "1.4.0"
-  resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
+  resolved "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
@@ -2641,7 +2641,7 @@ react-dom@18.2.0:
 
 react-hook-form@^7.41.5:
   version "7.41.5"
-  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.41.5.tgz#dcd0e7438c15044eadc99df6deb889da5858a03b"
+  resolved "https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.41.5.tgz"
   integrity sha512-DAKjSJ7X9f16oQrP3TW2/eD9N6HOgrmIahP4LOdFphEWVfGZ2LulFd6f6AQ/YS/0cx/5oc4j8a1PXxuaurWp/Q==
 
 react-is@^16.13.1:
@@ -2666,7 +2666,7 @@ react-refractor@^2.1.7:
 
 react-simple-typewriter@^5.0.1:
   version "5.0.1"
-  resolved "https://registry.yarnpkg.com/react-simple-typewriter/-/react-simple-typewriter-5.0.1.tgz#cfdb896c868a55ed4d5f1f06d62b3a9d0f5ad9d7"
+  resolved "https://registry.npmjs.org/react-simple-typewriter/-/react-simple-typewriter-5.0.1.tgz"
   integrity sha512-vA5HkABwJKL/DJ4RshSlY/igdr+FiVY4MLsSQYJX6FZG/f1/VwN4y1i3mPXRyfaswrvI8xii1kOVe1dYtO2Row==
 
 react-social-icons@^5.15.0:
@@ -2780,7 +2780,7 @@ reusify@^1.0.4:
 
 rimraf@^3.0.2:
   version "3.0.2"
-  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-3.0.2.tgz#f1a5402ba6220ad52cc1282bac1ae3aa49fd061a"
+  resolved "https://registry.npmjs.org/rimraf/-/rimraf-3.0.2.tgz"
   integrity sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==
   dependencies:
     glob "^7.1.3"
@@ -3002,7 +3002,7 @@ synckit@^0.8.4:
 
 tailwind-scrollbar@^2.1.0:
   version "2.1.0"
-  resolved "https://registry.yarnpkg.com/tailwind-scrollbar/-/tailwind-scrollbar-2.1.0.tgz#46e0b8788cef75387f9d163a5ec82b8cacd66c44"
+  resolved "https://registry.npmjs.org/tailwind-scrollbar/-/tailwind-scrollbar-2.1.0.tgz"
   integrity sha512-zpvY5mDs0130YzYjZKBiDaw32rygxk5RyJ4KmeHjGnwkvbjm/PszON1m4Bbt2DkMRIXlXsfNevykAESgURN4KA==
 
 tailwindcss@^3.2.4:
@@ -3220,7 +3220,7 @@ which-typed-array@^1.1.9:
 
 which@^2.0.1:
   version "2.0.2"
-  resolved "https://registry.yarnpkg.com/which/-/which-2.0.2.tgz#7c6a8dd0a636a0327e10b59c9286eee93f3f51b1"
+  resolved "https://registry.npmjs.org/which/-/which-2.0.2.tgz"
   integrity sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==
   dependencies:
     isexe "^2.0.0"
